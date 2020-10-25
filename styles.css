@@ -1,0 +1,118 @@
+h1{
+	font-family: 'Sacramento', cursive;
+	color: pink;
+	font-size: 3rem;
+	text-align: center;
+
+}
+
+h2{
+	font-family: 'Sacramento', cursive;
+	color:pink;
+	text-align: center;
+	font-size: 2rem;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+
+}
+
+header{
+
+}
+figcaption{
+	font-family: 'Sacramento', cursive;
+	color:pink;
+	text-align: center;
+
+}
+
+}
+
+nav {
+	background-color: pink;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	background-color: pink;
+	padding: 2%;
+}
+
+nav ul li{
+	display: inline;
+	font-size: 1.75rem;
+	font-family: sans-serif;
+	color:white;
+	padding: 3%;
+	text-decoration: underline;
+
+
+}
+
+section{
+	max-width: : 767px;
+  	overflow: hidden; 
+	padding: 3%;
+	padding 3%;
+
+
+}
+
+aside{
+	padding 3%
+	margin-top: 3%;
+	margin-bottom: 3%;
+
+}
+
+footer{
+	background-color: pink;
+	color: white;
+	padding:3%;
+
+}
+
+/*@media (max-width: 1000px) and (min-width: 726px)
+
+Phones: 320 - 767
+Tablets: 768 - 1023
+Desktop: 1024+ */
+
+@media(min-width: 768px) and (max-width: 1023px){
+	nav ul li{
+		font-size: 1.25rem;
+	}
+	section{
+		max-height: 1023px;
+  		overflow: hidden; 
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1023px){
+	h1{
+		font-size: 5rem;
+	}
+	h2{
+		font-size: 3rem;
+	}
+	p{
+		font-size: 1.25rem;
+	}
+	nav ul li{
+		font-size: 1.25rem;
+	}
+	aside{
+		width: 35%;
+		margin: 2%;
+	}
+	section{
+		max-height: 1024px;
+  		overflow: hidden; 
+  		display: inline-block;
+	}
+}
